@@ -1,4 +1,19 @@
-﻿ 
+<#
+ This script implements the steps in https://docs.microsoft.com/en-us/windows/deployment/update/windows-update-resources
+ 
+ This is a quick implementation for now.  A more-full featured version will be coming soon.  I provide this as a convenience for now.  If the script fails
+ for any reason, I recommend using the manual steps in the article above.
+ 
+ 
+ Author:  Mark Stanfill
+ Email: markstan@microsoft.com
+ Date created: 10/27/2021
+ Last updated: 11/5/2021
+  
+.COPYRIGHT
+Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
+See LICENSE in the project root for license information.
+ #>
 
 net stop wuauserv
 net stop bits
